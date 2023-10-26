@@ -1,0 +1,27 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+@import'./all-blocks/mixin';
+@import'./all-blocks/header';
+@import'./all-blocks/fonts';
+@import'./all-blocks/variables';
+
+body{
+    font-family: $text_font_title;
+    font-weight: 400;
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+@import'./all-blocks/blog';
+@import'./all-blocks/posts';
+@import'./all-blocks/register';
+@import'./all-blocks/all-posts';
+

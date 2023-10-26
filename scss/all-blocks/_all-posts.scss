@@ -1,0 +1,19 @@
+.form__input{
+    margin-top: 90px;
+}
+.allPosts__title{
+    font-family: 'Sen-bold';
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    @include for-tablet{
+        font-size: 32px;
+        text-align: center;
+    }
+}
+hr{
+    margin-bottom: 60px;
+}
